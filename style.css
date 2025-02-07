@@ -1,0 +1,50 @@
+html {
+  background-color: blanchedalmond;
+}
+
+body {
+  background-color: white;
+  border: 1px solid black;
+  width: 500px;
+  margin: auto;
+  padding: 25px 75px;
+  border-radius: 50px;
+}
+
+img {
+  border: white;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(92, 19, 19);
+  font-family: fantasy;
+  letter-spacing: 1px;
+  background-color: lightcoral;
+  border-top-right-radius: 20px;
+}
+.center {
+  text-align: center;
+}
+
+p,
+ol,
+ul {
+  font-family: cursive;
+}
+
+a {
+  color: rgb(112, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
