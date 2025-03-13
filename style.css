@@ -1,50 +1,76 @@
 html {
-  background-color: blanchedalmond;
-}
-
-body {
-  background-color: white;
-  border: 1px solid black;
-  width: 500px;
-  margin: auto;
-  padding: 25px 75px;
-  border-radius: 50px;
-}
-
-img {
-  border: white;
+background-image: url(img/cat2.jpg);
+background-repeat: repeat;
 }
 
 h1 {
-  color: rgb(255, 255, 255);
-  font-family: monospace;
-  background-color: black;
-  border-radius: 20px;
-  text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2 {
-  color: rgb(92, 19, 19);
-  font-family: fantasy;
-  letter-spacing: 1px;
-  background-color: lightcoral;
-  border-top-right-radius: 20px;
-}
-.center {
-  text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p,
-ol,
-ul {
-  font-family: cursive;
+body {
+    width: 600px;
+    background-color: pink;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-a {
-  color: rgb(112, 0, 0);
-  text-decoration: none;
+img {
+    width: 220px;
+    margin-left: 40px;
+    border: 4px solid purple;
 }
 
-a:hover {
-  text-decoration: underline;
+
+button:hover{
+    cursor: pointer;
+    border:2px solid black;
+    background-color: purple;
+    padding: 20px;
+    font-size: 18px;
+}
+button {
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 70px;
+margin-bottom: 100px;
+font-family: monospace;
+padding-top: 30px;
+padding-bottom: 30px;
+} 
+
+#result {
+    margin-left: 150px;
+    padding-left: 50px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#result:hover {
+    cursor: pointer;
+}
+
+
+
+.hide {
+display: none;
+text-align: center;
+margin-top: 30px;
+}
+
+#result:hover + .hide {
+    display: block;
+}
+
+button {
+    padding-left: 0;
+    width: 30%;
 }
